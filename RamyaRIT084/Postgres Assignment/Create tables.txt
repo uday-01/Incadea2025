@@ -1,0 +1,38 @@
+CREATE TABLE Courses (
+    CourseID INT PRIMARY KEY,
+    Title VARCHAR(255) NOT NULL,
+    Description TEXT
+);
+
+CREATE TABLE Instructors (
+    InstructorID INT PRIMARY KEY,
+    Name VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) UNIQUE NOT NULL,
+    PhoneNumber VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) UNIQUE NOT NULL,
+    EnrollmentDate DATE NOT NULL
+);
+
+CREATE TABLE Enrollments (
+    EnrollmentID INT PRIMARY KEY,
+    StudentID INT,
+    CourseID INT,
+    EnrollmentDate DATE NOT NULL,
+    CONSTRAINT FK_Enrollments_Student FOREIGN KEY (StudentID) REFERENCES Students(StudentID) ON DELETE CASCADE,
+    CONSTRAINT FK_Enrollments_Course FOREIGN KEY (CourseID) REFERENCES Courses(CourseID) ON DELETE CASCADE
+);
+
+CREATE TABLE Course_Instructors (
+    CourseID INT,
+    InstructorID INT,
+    PRIMARY KEY (CourseID, InstructorID),
+    CONSTRAINT FK_CourseInstructors_Course FOREIGN KEY (CourseID) REFERENCES Courses(CourseID) ON DELETE CASCADE,
+    CONSTRAINT FK_CourseInstructors_Instructor FOREIGN KEY (InstructorID) REFERENCES Instructors(InstructorID) ON DELETE CASCADE
+);
+
+
