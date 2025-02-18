@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment7\\assignment7\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment7\\assignment7\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment7\\assignment7\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment7\\assignment7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment7\\assignment7\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA49CA82-8DEF-4D63-875E-30E5A14F2898}|Assignment7\\Assignment7.csproj|solutionrelative:assignment7\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Assignment7\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Assignment7\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:59:51.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\appsettings.json",
+              "RelativeDocumentMoniker": "Assignment7\\appsettings.json",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\appsettings.json",
+              "RelativeToolTip": "Assignment7\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T04:59:44.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment7\\Program.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Program.cs",
+              "RelativeToolTip": "Assignment7\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:58:03.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Assignment7\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Models\\Student.cs",
+              "RelativeToolTip": "Assignment7\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:55:57.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Assignment7\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment7\\Assignment7\\Controllers\\StudentController.cs*",
+              "RelativeToolTip": "Assignment7\\Controllers\\StudentController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:55:31.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

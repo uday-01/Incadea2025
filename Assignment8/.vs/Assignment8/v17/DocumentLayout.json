@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yashas.achar\\source\\repos\\Assignment8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEFCAF2-6D20-49CF-A9FA-2A54002D1B6B}|Assignment8\\Assignment8and9.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment8\\assignment8\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFEFCAF2-6D20-49CF-A9FA-2A54002D1B6B}|Assignment8\\Assignment8and9.csproj|solutionrelative:assignment8\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment8\\Assignment8\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment8\\Assignment8\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Assignment8\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T06:02:09.002Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
