@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Models\\EmployeeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Models\\EmployeeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091942_thirdmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Migrations\\20250217091942_thirdmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091746_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Migrations\\20250217091746_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091217_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Migrations\\20250217091217_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Models\\DepartmentTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Models\\DepartmentTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Assignment8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment8\\Assignment8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Assignment8\\data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\data\\AppDbContext.cs",
+              "RelativeToolTip": "Assignment8\\data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T17:33:20.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentTable.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Models\\DepartmentTable.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Models\\DepartmentTable.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Models\\DepartmentTable.cs",
+              "RelativeToolTip": "Assignment8\\Models\\DepartmentTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T17:17:09.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\appsettings.json",
+              "RelativeDocumentMoniker": "Assignment8\\appsettings.json",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\appsettings.json",
+              "RelativeToolTip": "Assignment8\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T07:31:07.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Program.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Program.cs",
+              "RelativeToolTip": "Assignment8\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:29:14.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Assignment8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:18:45.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250217091746_secondmigration.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091746_secondmigration.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Migrations\\20250217091746_secondmigration.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091746_secondmigration.cs",
+              "RelativeToolTip": "Assignment8\\Migrations\\20250217091746_secondmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T09:17:46.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeTable.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Models\\EmployeeTable.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Models\\EmployeeTable.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Models\\EmployeeTable.cs",
+              "RelativeToolTip": "Assignment8\\Models\\EmployeeTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T17:13:28.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250217091217_initialmigration.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091217_initialmigration.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Migrations\\20250217091217_initialmigration.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091217_initialmigration.cs",
+              "RelativeToolTip": "Assignment8\\Migrations\\20250217091217_initialmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T09:12:17.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250217091942_thirdmigration.cs",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091942_thirdmigration.cs",
+              "RelativeDocumentMoniker": "Assignment8\\Migrations\\20250217091942_thirdmigration.cs",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Migrations\\20250217091942_thirdmigration.cs",
+              "RelativeToolTip": "Assignment8\\Migrations\\20250217091942_thirdmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T09:19:42.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Assignment8.csproj",
+              "DocumentMoniker": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Assignment8.csproj",
+              "RelativeDocumentMoniker": "Assignment8\\Assignment8.csproj",
+              "ToolTip": "C:\\Users\\suman.jha\\Desktop\\Tasks\\Incadea2025\\SumanJhaIT090\\Assignment8\\Assignment8\\Assignment8.csproj",
+              "RelativeToolTip": "Assignment8\\Assignment8.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-15T17:32:57.937Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

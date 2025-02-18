@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "Assignment9.Controllers.StudentController",
+    "Method": "GetStudent",
+    "RelativePath": "{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Assignment9.Models.students",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Assignment9.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "Addstudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "Assignment9.Models.students",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment9.Controllers.LoginController",
+    "Method": "AdminLogin",
+    "RelativePath": "api/Login/adminlogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Assignment9.Controllers.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment9.Controllers.LoginController",
+    "Method": "StudentLogin",
+    "RelativePath": "api/Login/studentlogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Assignment9.Controllers.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment9.Controllers.StudentController",
+    "Method": "DeleteRange",
+    "RelativePath": "deleterange",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentslist",
+        "Type": "System.Collections.Generic.List\u00601[[Assignment9.Models.students, Assignment9, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]][]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment9.Controllers.StudentController",
+    "Method": "UpdateStudentsRange",
+    "RelativePath": "updaterange",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentslist",
+        "Type": "System.Collections.Generic.List\u00601[[Assignment9.Models.students, Assignment9, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
