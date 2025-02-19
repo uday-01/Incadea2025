@@ -1,0 +1,6 @@
+this is a nodejs project that implements docker , i have created an image of this project in docker and pushed it to docker aswell.
+
+The project can be pullled from docker by following command --- "docker pull sumanjha1503/simple-dockerimplementaion"
+if the given  command doesnot works , try with this command --"docker pull sumanjha1503/simple-dockerimplementaion.0.0.1.RELEASE"
+
+Thank you
