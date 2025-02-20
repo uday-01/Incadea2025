@@ -1,0 +1,51 @@
+<div class="container">
+  <h2>Demo Login page</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="username">Username</label><br>
+      <input type="text" id="username" [(ngModel)]="username" name="username" class="form-control"
+        placeholder="Enter your username"><br><br>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label><br>
+      <input type="password" id="password" [(ngModel)]="password" name="password" class="form-control"
+        placeholder="Enter your password"><br><br>
+    </div>
+
+  </form>
+
+  <p><strong>Typed Username:</strong> {{ username }}</p>
+  <!-- Custom Directive -->
+  <p appHighlight><strong>Welcome {{ username }}, Have a great day!</strong></p>
+  <hr>
+
+  <!-- Structural Directives -->
+  <h3>*ngFor Directive</h3>
+  <ul>
+    <li *ngFor = "let user of users">{{ user }}</li>
+  </ul>
+  <hr>
+
+  <h3>*ngFor Directive</h3>
+  <button (click)="toggleVisibility()">Click Me</button>
+  <p *ngIf="isVisible">I'm Only visible if you "Click Me".</p> 
+  <hr>
+
+<!-- Attribute Directives  -->
+  <h3>[ngClass] Directive</h3>
+  <button (click)="Toggle()">Toggle</button>
+  <p [ngClass]="{'bold-text': isBold}">This text is bold when toggled.</p> 
+  <hr>
+
+  <h3>[ngStyle] Directive</h3>
+  <select [(ngModel)]="selectedColor">
+    <option value="">Select a color</option>
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+  </select>
+  <p [ngStyle]="{'color': selectedColor}">This text changes color dynamically.</p>
+
+</div>
