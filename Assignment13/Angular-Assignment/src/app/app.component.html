@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .red {
+      background-color: red;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    .green {
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <div id="date">{{today | date}}</div>
+  <div id="box">
+    <h1>Welcome to {{companyName}} {{name}}</h1>
+    <div class="container">
+      <div class="userName">
+        <label for="">Enter Your Name</label>
+        <input type="text" [(ngModel)]="name">
+      </div>
+      <div class="pass">
+        <label for="">Enter Your Password</label>
+        <input type="password">
+      </div>
+      <div class="btn">
+        <button (click)="toggleclass()" id="login" [ngClass]="selectedColor">{{loginOrlogout}}</button>
+      </div>
+      <div *ngIf="isLoggedIn" id="msg">
+        <ul *ngFor="let peep of Data">
+          <li>User: {{peep | uppercase}}</li>
+        </ul>
+      </div>
+
+      <select [(ngModel)]="selectedColor">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+
+      <div [ngSwitch]="selectedColor">
+        <div *ngSwitchCase="'red'">You have selected Red</div>
+        <div *ngSwitchCase="'blue'">You have selected Blue</div>
+        <div *ngSwitchCase="'green'">You have selected Green</div>
+        <div *ngSwitchDefault>Choose a color</div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
