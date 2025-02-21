@@ -1,0 +1,7 @@
+D:\ASP.NET practice\EmployeeAuthPractice\obj\Debug\net8.0\EmployeeAuthPractice.csproj.AssemblyReference.cache
+D:\ASP.NET practice\EmployeeAuthPractice\obj\Debug\net8.0\EmployeeAuthPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET practice\EmployeeAuthPractice\obj\Debug\net8.0\EmployeeAuthPractice.AssemblyInfoInputs.cache
+D:\ASP.NET practice\EmployeeAuthPractice\obj\Debug\net8.0\EmployeeAuthPractice.AssemblyInfo.cs
+D:\ASP.NET practice\EmployeeAuthPractice\obj\Debug\net8.0\EmployeeAuthPractice.csproj.CoreCompileInputs.cache
+D:\ASP.NET practice\EmployeeAuthPractice\obj\Debug\net8.0\EmployeeAuthPractice.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET practice\EmployeeAuthPractice\obj\Debug\net8.0\EmployeeAuthPractice.MvcApplicationPartsAssemblyInfo.cache
