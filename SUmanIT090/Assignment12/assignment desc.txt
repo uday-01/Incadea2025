@@ -1,0 +1,20 @@
+QUESTION
+the task was to - Make a loign page using angular , use directives and pipes and two way binding in that
+
+ANSWER
+
+
+i have used them as follows:-
+
+Directives:
+Structural Directive: *ngIf
+Attribute Directive: [ngClass]
+
+Pipes Used:
+Built-in Pipe: uppercase
+Custom Pipe: maskEmail
+
+Two-way Binding Used:
+ngModel for email input
+ngModel for password input
+

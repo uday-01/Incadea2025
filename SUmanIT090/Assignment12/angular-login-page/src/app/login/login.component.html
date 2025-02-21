@@ -1,0 +1,24 @@
+<div class="container">
+    <h2>Login</h2>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="input-group">
+          <label>Email:</label>
+          <input type="email" name="email" [(ngModel)]="user.email" required />
+        </div>
+        
+        <div class="input-group">
+          <label>Password:</label>
+          <input type="password" name="password" [(ngModel)]="user.password" required />
+        </div>
+    
+        <button type="submit" [disabled]="loginForm.invalid">Login</button>
+    </form>
+
+    <p *ngIf="message">{{ message | uppercase }}</p>
+
+    <p *ngIf="message" [ngClass]="{'sucess': message == 'Login Sucessful', 'error': message == 'Invalid Credentials'}"></p>
+
+    <!---- email preview as the user types -->
+    <!-- and here i am using my custom pipe that i have defined in custom-pipe -->
+    <p *ngIf="user.email">Email Preview: {{ user.email | maskEmail }}</p>
+</div>
