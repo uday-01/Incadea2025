@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\migrations\\20250221091326_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\migrations\\20250221091326_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|c:\\users\\likith.d\\source\\repos\\assignment-10\\assignment-10\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C3708D0-24ED-4214-B902-5C9DAF9CEF33}|Assignment-10\\Assignment-10.csproj|solutionrelative:assignment-10\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250221091326_Users.cs",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Migrations\\20250221091326_Users.cs",
+              "RelativeDocumentMoniker": "Assignment-10\\Migrations\\20250221091326_Users.cs",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Migrations\\20250221091326_Users.cs",
+              "RelativeToolTip": "Assignment-10\\Migrations\\20250221091326_Users.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:13:26.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment-10\\Program.cs",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Program.cs",
+              "RelativeToolTip": "Assignment-10\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:09:45.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\appsettings.json",
+              "RelativeDocumentMoniker": "Assignment-10\\appsettings.json",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\appsettings.json",
+              "RelativeToolTip": "Assignment-10\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T09:07:29.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "Assignment-10\\Data\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "Assignment-10\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:05:16.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Assignment-10\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Assignment-10\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:03:58.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Assignment-10\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Assignment-10\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:57:51.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Assignment-10\\Models\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Assignment-10\\Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:56:49.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Assignment-10\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\likith.d\\source\\repos\\Assignment-10\\Assignment-10\\Models\\Users.cs",
+              "RelativeToolTip": "Assignment-10\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:55:17.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
