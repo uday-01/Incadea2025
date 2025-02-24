@@ -1,0 +1,23 @@
+This is a basic CRUD application , i have created a backend in which i have defined register and login endpoints , 
+after the login i have defined a complete crud operarion that a user can do to which the changes will also be reflexted in database also.
+
+
+The frontend contains the pages according to the backend there is a registation page , login page and finally a home page which welcomes the user.
+
+
+the integration part is not done yet , i will be doing it soon.
+
+
+ NOTE :- This micro project was just a practice assignment that i did on my own to implement the angular learning held on friday by namya.
+
+ backend file -CRUDapp
+
+the  backend is tested on swagger and works fine.
+
+
+ frontend file:- appl
+  Register pags is at :- http://localhost:4200/register
+  Login page is at :- http://localhost:4200/login
+  Home page is at :- http://localhost:4200/home
+
+i have used components to create the 3 different pages and have interlinked it , 
