@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UtbAytxlaXECLXDPtVL8mp6gwg5n5FRDUk1Psh+hfPY=",
+  "Source": "jwtapp",
+  "BasePath": "_content/jwtapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
