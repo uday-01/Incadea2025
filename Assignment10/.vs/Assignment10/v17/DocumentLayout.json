@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment10\\assignment10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|solutionrelative:assignment10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment10\\assignment10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|solutionrelative:assignment10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment10\\assignment10\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|solutionrelative:assignment10\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment10\\assignment10\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|solutionrelative:assignment10\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|c:\\users\\yashas.achar\\source\\repos\\assignment10\\assignment10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1A572EB-3D35-46A0-BBB7-3D5ADCC8A5C8}|Assignment10\\Assignment10.csproj|solutionrelative:assignment10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "Assignment10\\Data\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "Assignment10\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T04:38:28.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Assignment10\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Models\\Users.cs",
+              "RelativeToolTip": "Assignment10\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T04:37:37.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment10\\Program.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Program.cs",
+              "RelativeToolTip": "Assignment10\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T04:36:24.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\appsettings.json",
+              "RelativeDocumentMoniker": "Assignment10\\appsettings.json",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\appsettings.json",
+              "RelativeToolTip": "Assignment10\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-23T04:20:33.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Assignment10\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Assignment10\\Assignment10\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Assignment10\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T04:20:28.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

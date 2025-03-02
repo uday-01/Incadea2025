@@ -1,0 +1,25 @@
+<div class="conatiner">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Customer Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cust of customer">
+                <th scope="row">{{cust.customerId}}</th>
+                <td>{{cust.customerName}}</td>
+                <td>{{cust.customerEmail}}</td>
+                <td>{{cust.customerAddress}}</td>
+                <td scope="col"><button [routerLink]="['/admin/allcustomers/update', cust.customerId]"
+                        class="btn btn-warning">Update</button>
+                </td>
+                <td scope="col"><button (click)="deleteHandler(cust.customerId)" [routerLink]="['/admin/allcustomers']"
+                        class="btn btn-danger">delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

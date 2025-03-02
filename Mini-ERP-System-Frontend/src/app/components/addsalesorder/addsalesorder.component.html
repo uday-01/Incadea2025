@@ -1,0 +1,32 @@
+<div class="container">
+    <h1 class="mb-5 text-center">Add Sales</h1>
+    <form (submit)="submitHandler($event)" class="form">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Enter Customer ID</label>
+            <input type="text" [(ngModel)]="salesOrder.customerId" class="form-control" name="CustomerId"
+                id="exampleFormControlInput1" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput2">Enter Product ID</label>
+            <input type="text" [(ngModel)]="salesOrder.productId" class="form-control" name="ProductDescription"
+                id=" exampleFormControlInput2" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput3">Enter Sales Person ID</label>
+            <input type="text" [(ngModel)]="salesOrder.userId" class="form-control" name="Price"
+                id=" exampleFormControlInput3" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput3">Quantity Sold</label>
+            <input type="text" [(ngModel)]="salesOrder.quantitySold" class="form-control" name="Stocks"
+                id=" exampleFormControlInput3" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput3">Total Sales</label>
+            <input type="text" [(ngModel)]="salesOrder.totalSalesAmount" class="form-control" name="Stocks"
+                id=" exampleFormControlInput3" placeholder="">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

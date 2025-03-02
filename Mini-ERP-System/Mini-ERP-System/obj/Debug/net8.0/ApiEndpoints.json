@@ -1,0 +1,418 @@
+[
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.CustomerController",
+    "Method": "AddCustomer",
+    "RelativePath": "api/customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cust",
+        "Type": "Mini_ERP_System.Models.Customers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.CustomerController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/customer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.CustomerController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/customer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "customer",
+        "Type": "Mini_ERP_System.Models.Customers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.CustomerController",
+    "Method": "DeleteCustomer",
+    "RelativePath": "api/customer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.CustomerController",
+    "Method": "GetAllCustomers",
+    "RelativePath": "api/customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Mini_ERP_System.Models.Products",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "Mini_ERP_System.Models.Products",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.ProductController",
+    "Method": "DeleteProductById",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.ProductController",
+    "Method": "GetProductAllProducts",
+    "RelativePath": "api/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.PurchaseOrderController",
+    "Method": "CreatePurchaseOrder",
+    "RelativePath": "api/purchaseorder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchaseOrder",
+        "Type": "Mini_ERP_System.Models.PurchaseOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.PurchaseOrderController",
+    "Method": "ViewIndividualPurchaseOrder",
+    "RelativePath": "api/purchaseorder/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.PurchaseOrderController",
+    "Method": "ViewAllPurchaseOrders",
+    "RelativePath": "api/purchaseorders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SalesOrderController",
+    "Method": "CreateSalesOrder",
+    "RelativePath": "api/salesorder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salesOrder",
+        "Type": "Mini_ERP_System.Models.SalesOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SalesOrderController",
+    "Method": "ViewIndividualSalesOrder",
+    "RelativePath": "api/salesorder/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SalesOrderController",
+    "Method": "ViewAllSalesOrder",
+    "RelativePath": "api/salesorders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SupplierController",
+    "Method": "AddSupplier",
+    "RelativePath": "api/supplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplier",
+        "Type": "Mini_ERP_System.Models.Suppliers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SupplierController",
+    "Method": "GetSupplierById",
+    "RelativePath": "api/supplier/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SupplierController",
+    "Method": "UpdateSupplier",
+    "RelativePath": "api/supplier/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Supp",
+        "Type": "Mini_ERP_System.Models.Suppliers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SupplierController",
+    "Method": "DeleteSupplier",
+    "RelativePath": "api/supplier/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.SupplierController",
+    "Method": "GetAllSuppliers",
+    "RelativePath": "api/suppliers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Mini_ERP_System.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/user/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/user/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Mini_ERP_System.Models.Users",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.UserController",
+    "Method": "DeleteUserById",
+    "RelativePath": "api/user/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.LoginController",
+    "Method": "UserLogin",
+    "RelativePath": "auth/userlogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Mini_ERP_System.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

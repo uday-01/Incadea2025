@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|c:\\users\\yashas.achar\\source\\repos\\mini-erp-system\\mini-erp-system\\controllers\\salesordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|solutionrelative:mini-erp-system\\controllers\\salesordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|c:\\users\\yashas.achar\\source\\repos\\mini-erp-system\\mini-erp-system\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|solutionrelative:mini-erp-system\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|c:\\users\\yashas.achar\\source\\repos\\mini-erp-system\\mini-erp-system\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|solutionrelative:mini-erp-system\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|c:\\users\\yashas.achar\\source\\repos\\mini-erp-system\\mini-erp-system\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|solutionrelative:mini-erp-system\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|c:\\users\\yashas.achar\\source\\repos\\mini-erp-system\\mini-erp-system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|solutionrelative:mini-erp-system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|c:\\users\\yashas.achar\\source\\repos\\mini-erp-system\\mini-erp-system\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|solutionrelative:mini-erp-system\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|c:\\users\\yashas.achar\\source\\repos\\mini-erp-system\\mini-erp-system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777435B-ACBE-466E-8D4C-69ABB0AF48CD}|Mini-ERP-System\\Mini-ERP-System.csproj|solutionrelative:mini-erp-system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesOrder.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Models\\SalesOrder.cs",
+              "RelativeDocumentMoniker": "Mini-ERP-System\\Models\\SalesOrder.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Models\\SalesOrder.cs",
+              "RelativeToolTip": "Mini-ERP-System\\Models\\SalesOrder.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:06:09.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\SalesOrderController.cs",
+              "RelativeDocumentMoniker": "Mini-ERP-System\\Controllers\\SalesOrderController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\SalesOrderController.cs",
+              "RelativeToolTip": "Mini-ERP-System\\Controllers\\SalesOrderController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:06:06.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Mini-ERP-System\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Mini-ERP-System\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwEMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:32:54.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Mini-ERP-System\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Mini-ERP-System\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwDAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T09:36:22.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Mini-ERP-System\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Mini-ERP-System\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T04:21:05.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Mini-ERP-System\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Mini-ERP-System\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T12:27:08.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Program.cs",
+              "RelativeDocumentMoniker": "Mini-ERP-System\\Program.cs",
+              "ToolTip": "C:\\Users\\yashas.achar\\source\\repos\\Mini-ERP-System\\Mini-ERP-System\\Program.cs",
+              "RelativeToolTip": "Mini-ERP-System\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:14:26.641Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

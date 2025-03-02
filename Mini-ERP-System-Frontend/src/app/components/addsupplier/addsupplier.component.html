@@ -1,0 +1,21 @@
+<div class="container">
+    <h1 class="mb-5 text-center">Add Supplier</h1>
+    <form (submit)="submitHandler($event)" class="form">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Enter Supplier Name</label>
+            <input type="text" [(ngModel)]="supplier.supplierName" class="form-control" name="supplierName"
+                id="exampleFormControlInput1" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput2">Enter Supplier Email</label>
+            <input type="text" [(ngModel)]="supplier.supplierEmail" class="form-control" name="supplierEmail"
+                id=" exampleFormControlInput2" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput3">Enter Supplier Address</label>
+            <input type="text" [(ngModel)]="supplier.supplierAddress" class="form-control" name="supplierAddress"
+                id=" exampleFormControlInput3" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

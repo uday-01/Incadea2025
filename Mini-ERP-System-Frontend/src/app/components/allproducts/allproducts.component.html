@@ -1,0 +1,27 @@
+<div class="conatiner">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Product ID</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+                <th scope="col">Stocks Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pro of products">
+                <th scope="row">{{pro.productId}}</th>
+                <td>{{pro.productName}}</td>
+                <td>{{pro.productDescription}}</td>
+                <td>{{pro.price}}</td>
+                <td>{{pro.stocksAvailable}}</td>
+                <td scope="col"><button [routerLink]="['/admin/allproducts/update', pro.productId]"
+                        class="btn btn-warning">Update</button>
+                </td>
+                <td scope="col"><button (click)="deleteHandler(pro.productId)" [routerLink]="['/admin/allproducts']"
+                        class="btn btn-danger">delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

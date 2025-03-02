@@ -1,0 +1,20 @@
+<div class="conatiner">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Supplier Name</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Quantity Purchased</th>
+                <th scope="col">Total Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let purchase of purchaseOrders">
+                <th scope="row">{{ getSupplierName(purchase.supplierId) }}</th>
+                <td>{{ getProductName(purchase.productId) }}</td>
+                <td>{{purchase.quantityPurchased}}</td>
+                <td>{{purchase.totalPurchaseAmount}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

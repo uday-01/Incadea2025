@@ -1,0 +1,16 @@
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.btn {
+    width: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

@@ -1,0 +1,25 @@
+<div class="conatiner">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Supplier ID</th>
+                <th scope="col">Supplier Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let supp of supplier">
+                <th scope="row">{{supp.supplierId}}</th>
+                <td>{{supp.supplierName}}</td>
+                <td>{{supp.supplierEmail}}</td>
+                <td>{{supp.supplierAddress}}</td>
+                <td scope="col"><button [routerLink]="['/admin/allsuppliers/update', supp.supplierId]"
+                        class="btn btn-warning">Update</button>
+                </td>
+                <td scope="col"><button (click)="deleteHandler(supp.supplierId)" [routerLink]="['/admin/allsuppliers']"
+                        class="btn btn-danger">delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
