@@ -1,0 +1,639 @@
+{
+	"info": {
+		"_postman_id": "bef535f9-4785-4f6d-9cba-0e8f58266f66",
+		"name": "Mini-ERP-System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42415977"
+	},
+	"item": [
+		{
+			"name": "User Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"UserName\": \"SalesPerson_2\",\r\n  \"Password\": \"SalesPerson_2@123\",\r\n  \"Role\": \"sales\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/auth/userlogin",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"auth",
+						"userlogin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwibmJmIjoxNzQwNjQ2MTc3LCJleHAiOjE3NDA2NDcwNzcsImlhdCI6MTc0MDY0NjE3N30.Oz3afU9IQxyrtEIfKRWefiX3VIXJWVhUYYWkpp6PGvE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"UserName\": \"SalesPerson_2\",\r\n  \"Password\": \"SalesPerson_2@123\",\r\n  \"Role\": \"sales\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/user",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwibmJmIjoxNzQwNzE0MjgwLCJleHAiOjE3NDA3MTUxODAsImlhdCI6MTc0MDcxNDI4MH0.XA5XBqcYaSh3P72cv3PP5hS-0QH27TgtZp-Gh8qm2To",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"userName\": \"SalesPerson_19\",\r\n        \"password\": \"SalesPerson_19@123\",\r\n        \"role\": \"sales\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User By ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwibmJmIjoxNzQwNjQ2MTc3LCJleHAiOjE3NDA2NDcwNzcsImlhdCI6MTc0MDY0NjE3N30.Oz3afU9IQxyrtEIfKRWefiX3VIXJWVhUYYWkpp6PGvE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7213/api/user/10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"user",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7213/api/user/19",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"user",
+						"19"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlB1cmNoYXNlUGVyc29uXzEiLCJyb2xlIjoicHVyY2hhc2UiLCJuYmYiOjE3NDA3MTU0ODksImV4cCI6MTc0MDcxNjM4OSwiaWF0IjoxNzQwNzE1NDg5fQ.pxi4lW598lQcrHegrCaAwCU99mseyR900PBeVMN0YaE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ProductName\":\"RC Car\",\r\n    \"ProductDescription\":\"4X4 wheel drive Car\",\r\n    \"Price\":200,\r\n    \"StocksAvailable\":20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/product",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Products",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product By Id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update Products",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7213/api/product/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"product",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7213/api/customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Customers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Customer By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update Customer",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwibmJmIjoxNzQwNzE5NTc1LCJleHAiOjE3NDA3MjA0NzUsImlhdCI6MTc0MDcxOTU3NX0.wfVsUcYNDoD1c5sSVInKb6UZ9oQpNCT6cBWWRg8aMKQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CustomerName\":\"Cust_4\",\r\n    \"CustomerEmail\":\"Cust4@gmail.com\",\r\n    \"CustomerAddress\":\"Telagana\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/Customer/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"Customer",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Customer",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Add Supplier",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"SupplierName\":\"supplier_1\",\r\n    \"SupplierEmail\":\"supplier_1@gmail.com\",\r\n    \"SupplierAddress\":\"New York\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/supplier",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"supplier"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Suppliers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Supplier By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update Supplier",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Supplier",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7213/api/product/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"product",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Sales Order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwibmJmIjoxNzQwNzMzMTE1LCJleHAiOjE3NDA3MzQwMTUsImlhdCI6MTc0MDczMzExNX0.N7ZDVScRpK8r7ESln31ImdNSRj6Nt03WPCb4Yge4gUo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CustomerId\":30,\r\n    \"UserId\":190,\r\n    \"ProductId\":60,\r\n    \"QuantitySold\":10,\r\n    \"TotalSalesAmount\":2000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/salesorder",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"salesorder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View All Sales Orders",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbGVzUGVyc29uXzEiLCJyb2xlIjoic2FsZXMiLCJuYmYiOjE3NDA3MzMzNzMsImV4cCI6MTc0MDczNDI3MywiaWF0IjoxNzQwNzMzMzczfQ.i0l_oVNXBo2OnBNXxIVzdksPTJQKEDThkbiAf4d_vJw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7213/api/salesorders",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"salesorders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Sales Order By ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbGVzUGVyc29uXzEiLCJyb2xlIjoic2FsZXMiLCJuYmYiOjE3NDA3MzMzNzMsImV4cCI6MTc0MDczNDI3MywiaWF0IjoxNzQwNzMzMzczfQ.i0l_oVNXBo2OnBNXxIVzdksPTJQKEDThkbiAf4d_vJw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7213/api/salesorder/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"salesorder",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Purchase Order",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "View All Purchase Orders",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "View Purchase Order By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "quantityaftersales",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwibmJmIjoxNzQwOTYzOTU4LCJleHAiOjE3NDA5NjQ4NTgsImlhdCI6MTc0MDk2Mzk1OH0.1DMrup29AoimfJZ77x5CC0kZAQXqw_HVR2lW6tgJtAk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quantity\":100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/updatequantityaftersales/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"updatequantityaftersales",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "quantityafterpurchase",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwibmJmIjoxNzQwOTYzOTU4LCJleHAiOjE3NDA5NjQ4NTgsImlhdCI6MTc0MDk2Mzk1OH0.1DMrup29AoimfJZ77x5CC0kZAQXqw_HVR2lW6tgJtAk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quantity\":100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7213/api/updatequantityaftersales/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7213",
+					"path": [
+						"api",
+						"updatequantityaftersales",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
