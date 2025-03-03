@@ -62,6 +62,45 @@ namespace Mini_ERP_System.Controllers
             }
             return NotFound("Product Not Found");
         }
+        [HttpPut]
+        [Route("updatequantityaftersales/{id}")]
+        [Authorize(Roles ="admin,sales,purchase")]
+        public IActionResult UpdateProductQuantityaftersales([FromRoute]int id, [FromBody]Quantity quantity)
+        {
+            var product = context.Products.SingleOrDefault(i => i.ProductId == id);
+            if (product != null)
+            {
+                var productQuantity = product.StocksAvailable;
+                if (productQuantity > 0 && quantity.quantity <= productQuantity)
+                {
+                    productQuantity -= quantity.quantity;
+                    product.StocksAvailable = productQuantity;
+                    product.Price = product.Price;
+                    product.ProductName = product.ProductName;
+                    context.SaveChanges();
+                    return Ok("Product Quantity Updated");
+                }
+            }
+            return NotFound();
+        }
+        [HttpPut]
+        [Route("updatequantityafterpurchase/{id}")]
+        [Authorize(Roles = "admin,sales,purchase")]
+        public IActionResult UpdateProductQuantityafterpurchase([FromRoute] int id, [FromBody] Quantity quantity)
+        {
+            var product = context.Products.SingleOrDefault(i => i.ProductId == id);
+            if (product != null)
+            {
+                var productQuantity = product.StocksAvailable;
+                productQuantity +=quantity.quantity;
+                product.StocksAvailable = productQuantity;
+                product.Price = product.Price;
+                product.ProductName = product.ProductName;
+                context.SaveChanges();
+                return Ok("Product Quantity Updated");
+            }
+            return NotFound();
+        }
         [HttpDelete]
         [Route("product/{id}")]
         [Authorize(Roles = "sales,admin")]

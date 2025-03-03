@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { AuthService } from './auth.service';
 import { PurchaseOrder } from '../Models/PurchaseOrder';
 import { Observable } from 'rxjs';
+import { Quantity } from '../Models/Quantity';
 
 @Injectable({
   providedIn: 'root'
@@ -18,4 +19,5 @@ export class PurchaseorderService {
   getAllPurchaseOrders(): Observable<PurchaseOrder[]> {
     return this.http.get<PurchaseOrder[]>(this.GetAllPurchaseOrderUrl);
   }
+
 }

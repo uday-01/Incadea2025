@@ -13,7 +13,7 @@ namespace Mini_ERP_System.Models
         public  Users Users { get; set; }
         public int ProductId { get; set; }
         [JsonIgnore]
-        public  Products Products { get; set; }
+        public Products Products { get; set; }
         public int QuantitySold { get; set; }
         public int TotalSalesAmount { get; set; }
 

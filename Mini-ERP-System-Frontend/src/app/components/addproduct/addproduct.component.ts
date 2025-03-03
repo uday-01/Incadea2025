@@ -25,6 +25,7 @@ export class AddproductComponent {
     this.productService.addProduct(this.products).subscribe({
       next: (res) => {
         console.log(res);
+        alert("Product Added Successfully");
         this.router.navigate(['/admin'])
       },
       error: (err) => {

@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { AuthService } from '../../services/auth.service';
 
 
 @Component({
@@ -13,5 +14,9 @@ import { RouterModule } from '@angular/router';
   styleUrl: './admin.component.scss'
 })
 export class AdminComponent {
+  constructor(private authservice: AuthService) { }
+  logout() {
+    this.authservice.logout();
+  }
   userRole: string = "admin";
 }

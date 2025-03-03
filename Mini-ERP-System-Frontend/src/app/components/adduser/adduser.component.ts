@@ -26,6 +26,7 @@ export class AdduserComponent {
     this.Userservice.addUser(this.user).subscribe({
       next: (response) => {
         console.log('User added successfully:', response);
+        alert("User Added Successfully");
         this.router.navigate(['admin']);
       },
       error: (error) => {

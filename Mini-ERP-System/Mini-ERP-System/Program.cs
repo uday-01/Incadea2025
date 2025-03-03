@@ -12,9 +12,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular",
         policy => policy.WithOrigins("http://localhost:4200") 
-                        .AllowAnyMethod() 
+                        .AllowAnyMethod()
                         .AllowAnyHeader() 
-                        .AllowCredentials()); 
+                        .AllowCredentials());
 });
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>

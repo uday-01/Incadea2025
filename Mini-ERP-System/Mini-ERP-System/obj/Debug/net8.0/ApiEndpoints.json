@@ -321,6 +321,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mini_ERP_System.Controllers.ProductController",
+    "Method": "UpdateProductQuantityafterpurchase",
+    "RelativePath": "api/updatequantityafterpurchase/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "Mini_ERP_System.Models.Quantity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mini_ERP_System.Controllers.ProductController",
+    "Method": "UpdateProductQuantityaftersales",
+    "RelativePath": "api/updatequantityaftersales/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "Mini_ERP_System.Models.Quantity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mini_ERP_System.Controllers.UserController",
     "Method": "AddUser",
     "RelativePath": "api/user",

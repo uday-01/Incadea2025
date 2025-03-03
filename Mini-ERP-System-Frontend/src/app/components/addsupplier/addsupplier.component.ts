@@ -25,6 +25,7 @@ export class AddsupplierComponent {
     this.supplierService.addSupplier(this.supplier).subscribe({
       next: (res) => {
         console.log(res);
+        alert("Supplier Added Successfully");
         this.router.navigate(['/admin'])
       },
       error: (err) => {

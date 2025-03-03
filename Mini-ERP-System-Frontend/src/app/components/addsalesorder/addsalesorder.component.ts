@@ -27,6 +27,7 @@ export class AddsalesorderComponent {
     this.salesOrderservice.addSales(this.salesOrder).subscribe({
       next: (res) => {
         console.log(res);
+        alert("Sales Order Added Successfully");
         this.router.navigate(['/sales'])
       },
       error: (err) => {

@@ -25,6 +25,7 @@ export class AddcustomerComponent {
     this.customerService.addCustomer(this.customer).subscribe({
       next: (res) => {
         console.log(res);
+        alert("Customer Added Successfully");
         this.router.navigate(['/admin'])
       },
       error: (err) => {

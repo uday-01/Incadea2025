@@ -137,7 +137,7 @@ export const routes: Routes = [
         path: 'sales/addsalesorder',
         component: AddsalesorderComponent,
         canActivate: [authGuard],
-        data: { allowedRoles: ['admin', 'sales'] }
+        data: { allowedRoles: ['admin', 'sales'] },
 
     },
     {

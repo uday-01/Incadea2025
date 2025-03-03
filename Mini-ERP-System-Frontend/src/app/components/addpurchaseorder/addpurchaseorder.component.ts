@@ -27,6 +27,8 @@ export class AddpurchaseorderComponent {
     this.purchaseOrderService.addpurchase(this.purchaseOrder).subscribe({
       next: (res) => {
         console.log(res);
+
+        alert("Purchase Order Added Successfully");
         this.router.navigate(['/purchase'])
       },
       error: (err) => {
